@@ -4,7 +4,7 @@ import os
 import torch
 from torch.utils.data import DataLoader
 from torchvision import transforms
-from ..data_preprocessing import DataPreprocessor
+from data_preprocessing import DataPreprocessor
 
 class TestDataPreprocessor(unittest.TestCase):
     def setUp(self):
